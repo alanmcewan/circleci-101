@@ -13,7 +13,7 @@ jobs:
           root: my_workspace
           # Must be relative path from root
           paths:
-            - echo-output
+            - echo_output
   two:
     docker:
       - image: circleci/ruby:2.4.1
